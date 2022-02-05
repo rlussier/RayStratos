@@ -20,10 +20,18 @@
         // background-color: lightblue;
         // background: linear-gradient(to bottom,  #7d12ff 33%,#B026FF 70%);
         border-radius: 6px;
+        color: #FFFAFA;
     }
     input, #message {
         margin: .25rem;
         background: linear-gradient(75deg,  #7d12ff 40%,#B026FF 70%);
+        opacity: .75;
+    }
+    input::placeholder {
+        color: #FFFAFA;
+    }
+    #message::placeholder {
+        color: #FFFAFA;
     }
     .btn {
         padding: 5px 10px;
@@ -33,11 +41,12 @@
         margin: 0 6px;
         border: none;
         box-shadow: 0 0 5px cyan, 0 0 5px lightblue;
+        color: #FFFAFA;
     }
 }
 
 h2 {
     font-size: 3em;
     color: #FFFAFA;
-    padding: 1em;
+    padding: .05em;
 }
